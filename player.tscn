@@ -190,8 +190,10 @@ animations = [{
 script = ExtResource("1_onrkg")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1145133663]
-position = Vector2(605.5, 316)
+position = Vector2(241.00006, 163)
 scale = Vector2(0.984375, 1)
 sprite_frames = SubResource("SpriteFrames_4kxuq")
 animation = &"walk_up"
 frame_progress = 0.2747034
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2104927627]
